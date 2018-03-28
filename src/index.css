@@ -1,10 +1,7 @@
 body {
-  padding: 50px;
-  background-color: #66CCFF;
+  padding: 0;
+  margin: 0;
+  color: #1aa3ff;
   font-family: sans-serif;
 }
 
-#root {
-	display: flex;
-	justify-content: flex;
-}
