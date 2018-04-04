@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans');
 
 .row {
 	display: flex;
@@ -6,7 +7,8 @@
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 75px;
+	font-family: 'IBM Plex Sans', serif;
 }
 
 .col-md-4 {
@@ -14,4 +16,15 @@ h1 {
     justify-content: center;
 }
 
+li:hover {
+	background-color: #FF0800;
+}
 
+h4 {
+	padding-bottom: 14px;
+	font-family: 'IBM Plex Sans', serif;
+}
+
+h2 {
+	font-family: 'IBM Plex Sans', serif;
+}

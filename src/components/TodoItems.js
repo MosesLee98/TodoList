@@ -1,4 +1,6 @@
 import React from 'react';
+import './TodoItems.css';
+import Radium from 'radium';
 
 const TodoItems = (props) => {
 
@@ -11,4 +13,4 @@ const TodoItems = (props) => {
    	);
 }
 
-export default TodoItems;
+export default Radium(TodoItems);
